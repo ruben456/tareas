@@ -48,9 +48,14 @@ Listado de tareas por página:
 http://127.0.0.1:8000/api/tasks/?page=1
 
 Listado de tareas con búsqueda:
-http://127.0.0.1:8000/api/tasks/?search=prueba
+http://127.0.0.1:8000/api/tasks/?search=prueba (palabra a buscar)
 
 Detalle, actualización y eliminación de tareas:
-http://127.0.0.1:8000/api/tasks/1/
+http://127.0.0.1:8000/api/tasks/1/ (id de la tarea)
 
 
+# Test
+
+```bash
+python manage.py test
+```
